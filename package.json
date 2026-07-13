@@ -7,7 +7,9 @@
     "homepage": "https://YudBowl.github.io/Marina",
     "build": "vite build",
     "preview": "vite preview",
-    "import:firestore": "node scripts/import-firestore.js"
+    "import:firestore": "node scripts/import-firestore.js",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "firebase-admin": "^14.1.0",
