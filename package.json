@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "homepage": "https://YudBowl.github.io/Marina",
     "build": "vite build",
     "preview": "vite preview",
     "import:firestore": "node scripts/import-firestore.js"
