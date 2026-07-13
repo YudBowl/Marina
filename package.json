@@ -1,9 +1,5 @@
 
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "deploy": "gh-pages -d dist"
-}
+
 {
   "name": "marina-ketoan-fnb",
   "version": "1.0.0",
@@ -15,7 +11,7 @@
     "preview": "vite preview",
     "import:firestore": "node scripts/import-firestore.js",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "firebase-admin": "^14.1.0",
